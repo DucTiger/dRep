@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "DucTiger",
+    "motivations": "I am motivated to become a DRep because of my extensive experience as a Stake Pool Operator (SPO) and my passion for Cardano’s decentralized governance. My research into Cardano Improvement Proposals (CIPs), especially CIP 1694 and the Cardano Constitution, has equipped me with a solid foundation in governance mechanisms. I want to share this knowledge and help guide the ecosystem toward a future where all stakeholders' interests are considered and protected.",
+    "objectives": "As a DRep, I aim to leverage my deep understanding of the Cardano blockchain, acquired through years of research since 2018, to contribute to the long-term sustainability and balanced growth of the ecosystem. My goal is to actively engage in the governance process, ensuring that decisions align with the interests of all parties in the Cardano community while fostering innovation and transparency.",
+    "paymentAddress": "addr1q9exsnht2ulxfltny4fjceqthc68l37sfk3zdggdrzravkruv2j20gk9t6ag8wxjhrmqp40n7tp4ssfqc4v5d0mw7nksqdjcy5",
+    "qualifications": "My qualifications as a DRep stem from my years of hands-on experience with the Cardano blockchain and its technologies. As an SPO since 2018, I have developed a deep understanding of layer 1 technology and the governance framework of Cardano. My expertise in CIPs and the Cardano Constitution positions me to make informed, balanced, and sustainable decisions that will benefit the entire Cardano community.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Cardano Vietnam community support group, such as staking, news, and, proposals.",
+        "uri": "https://t.me/TIGERViewVN"
+      },
+      {
+        "@type": "Identity",
+        "label": "Learning process, work and some experiences related to Cardano.",
+        "uri": "https://www.linkedin.com/in/ductiger/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Sharing blockchain knowledge for the Vietnamese Cardano community.",
+        "uri": "https://www.youtube.com/@TIGERView"
+      }
+    ]
+  }
+}
