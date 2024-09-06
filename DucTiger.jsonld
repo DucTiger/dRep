@@ -57,7 +57,7 @@
     "givenName": "DucTiger",
     "motivations": "I am motivated to become a DRep because of my extensive experience as a Stake Pool Operator (SPO) and my passion for Cardano’s decentralized governance. My research into Cardano Improvement Proposals (CIPs), especially CIP 1694 and the Cardano Constitution, has equipped me with a solid foundation in governance mechanisms. I want to share this knowledge and help guide the ecosystem toward a future where all stakeholders' interests are considered and protected.",
     "objectives": "As a DRep, I aim to leverage my deep understanding of the Cardano blockchain, acquired through years of research since 2018, to contribute to the long-term sustainability and balanced growth of the ecosystem. My goal is to actively engage in the governance process, ensuring that decisions align with the interests of all parties in the Cardano community while fostering innovation and transparency.",
-    "paymentAddress": "addr1q9exsnht2ulxfltny4fjceqthc68l37sfk3zdggdrzravkruv2j20gk9t6ag8wxjhrmqp40n7tp4ssfqc4v5d0mw7nksqdjcy5",
+    "paymentAddress": "addr1qxvlc6xkw7qlgfvw9dznvzxtse26g4ul38rccekfdd2ujpvgkuj37lnusjwyqc0lpjjjs9vegthmfqj90z3y8p7y3grqw93seu",
     "qualifications": "My qualifications as a DRep stem from my years of hands-on experience with the Cardano blockchain and its technologies. As an SPO since 2018, I have developed a deep understanding of layer 1 technology and the governance framework of Cardano. My expertise in CIPs and the Cardano Constitution positions me to make informed, balanced, and sustainable decisions that will benefit the entire Cardano community.",
     "references": [
       {
@@ -69,11 +69,6 @@
         "@type": "Identity",
         "label": "Learning process, work and some experiences related to Cardano.",
         "uri": "https://www.linkedin.com/in/ductiger/"
-      },
-      {
-        "@type": "Identity",
-        "label": "Sharing blockchain knowledge for the Vietnamese Cardano community.",
-        "uri": "https://www.youtube.com/@TIGERView"
       }
     ]
   }
